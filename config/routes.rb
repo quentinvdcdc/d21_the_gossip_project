@@ -7,5 +7,5 @@ Rails.application.routes.draw do
 	resources :gossips
   get '/welcome/:first_name', to: 'users#welcome', as: 'welcome'
   get 'profile/:user_id', to: 'users#profile', as: 'profile'
-  #get '/gossip/:gossip_id', to: 'gossips#each_gossip', as: 'gossip'
+  #get '/gossip/:gossip_id', to: 'gossips#each_gossip', as: 'gossip' => relique d'un ancien monde
 end
