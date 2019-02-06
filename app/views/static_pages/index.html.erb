@@ -8,8 +8,8 @@
       <div class="card mx-auto mt-4" style="width: 350px;">
         <img class="card-img-top" src="https://media.giphy.com/media/2aJWos8PLvdI7pGj0E/giphy.gif" alt="Card image cap">
         <!--%= image_tag(".../100px180/"), :class => "card-img-top", :alt => "Card image cap" %-->
-        <div class="card-body">
-          <h5 class="card-title"><%= gossip.title %></h5>
+        <div class="card-body text-dark">
+          <h5 class="card-title text-dark"><%= gossip.title %></h5>
           <p class="card-text">Pour en savoir plus, l'auteur de cette prose est : <%= gossip.user.first_name %></p>
           <%= link_to "Voir le gossip", gossip_path(gossip.id), :class => "btn btn-primary" %>
           <%= link_to "Supprimer le gossip", gossip_path(gossip.id), :class => "btn btn-danger", method: :delete, data: { confirm: 'Are you sure?' } %>
