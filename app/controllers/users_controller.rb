@@ -4,8 +4,8 @@ class UsersController < ApplicationController
   	#puts "Ceci est mon premier user : #{@user}"
   	#puts params
   end
-  def profile
-  	@user = User.find_by(id: params[:user_id])
+  def show #ex-profile
+  	@user = User.find(params[:id])
   	#puts "Ceci est mon premier user : #{@user}"
   	#puts params
   end

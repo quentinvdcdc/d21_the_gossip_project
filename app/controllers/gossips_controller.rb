@@ -2,9 +2,10 @@ class GossipsController < ApplicationController
 	def index
 	end
   def show
-  	@gossip = Gossip.find_by(id: params[:id])
+  	@gossip = Gossip.find(params[:id])
   	@author = @gossip.user
   	@first_name = @author.first_name
+    #@comments = Comment.where(gossip_id: params[:id]).class
   end
   def new
   	@gossip = Gossip.new
@@ -21,5 +22,23 @@ class GossipsController < ApplicationController
   	  flash[:danger] = "Oh oh oh ! #motus" #idem
   	  render 'new'
   	end
+  end
+  def edit
+    @gossip = Gossip.find(params[:id])
+  end
+  def update
+    @gossip = Gossip.find(params[:id])
+    if @gossip.update('title' => params[:title], 'content' => params[:content], 'user' => @gossip.user)
+      flash[:success] = "Modification saved !"
+      redirect_to root_path
+    else
+      flash[:danger] = "Non modification pas sauvegardée !"
+      render :edit
+    end
+  end
+  def destroy
+    @gossip = Gossip.find(params[:id])
+    @gossip.destroy
+    redirect_to root_path
   end
 end
