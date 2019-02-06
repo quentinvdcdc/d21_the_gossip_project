@@ -9,8 +9,8 @@
         <img class="card-img-top" src="https://media.giphy.com/media/2aJWos8PLvdI7pGj0E/giphy.gif" alt="Card image cap">
         <!--%= image_tag(".../100px180/"), :class => "card-img-top", :alt => "Card image cap" %-->
         <div class="card-body">
-          <h5 class="card-title"><%= gossip.title %></h5>
-          <p class="card-text">Pour en savoir plus, l'auteur de cette prose est : <%= gossip.user.first_name %></p>
+          <h5 class="card-title text-dark"><%= gossip.title %></h5>
+          <p class="card-text text-dark">Pour en savoir plus, l'auteur de cette prose est : <%= gossip.user.first_name %></p>
           <%= link_to "Voir le gossip", gossip_path(gossip.id), :class => "btn btn-primary" %>
         </div>
       </div>
