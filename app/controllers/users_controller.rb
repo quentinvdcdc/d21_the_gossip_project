@@ -14,7 +14,8 @@ class UsersController < ApplicationController
     @user = User.new
   end
   def create
-    @city = City.find(1)
+    @cities = City.all
+    @city = City.find_by(name: params[:city][0])
     @user = User.new(first_name: params[:first_name], last_name: params[:last_name], description: params[:description], age: params[:age], email: params[:email], password: params[:password], city: @city)
     # on vérifie si l'utilisateur existe bien ET si on arrive à l'authentifier (méthode bcrypt) avec le mot de passe 
     if @user.save

@@ -1,28 +1,43 @@
-<h1>Viens, ça va être bien</h1>
-<%= form_tag url_for(action: 'create'), method: "post" do %>
-	<%= label_tag 'FirstName' %>
-	<%= text_field_tag 'first_name' %>
-	<br /> <br />
-	<%= label_tag 'Last Name' %>
-	<%= text_field_tag 'last_name' %>
-	<br /> <br />
-	<%= label_tag 'Description' %>
-	<%= text_area_tag 'description' %>
-	<br /> <br />
-  <%= label_tag 'Email' %>
-  <%= text_field_tag 'email' %>
-  <br /> <br />
-  <%= label_tag 'Password' %>
-  <%= text_field_tag 'password' %>
-  <br /> <br />
-  <%= label_tag 'Age' %>
-	<%= number_field_tag 'age', nil, in: 18...99 %>
-	<br /> <br />
-	<%= label_tag 'City' %>
+<div class="mx-auto pt-4" style="width: 400px">
+<!-- Default form login -->
+<%= form_tag url_for(action: 'create'), method: "post", class: "text-center border border-light p-5" do %>
 
-	<br /> <br />
-  <%= submit_tag "Sign Up" %>
+    <p class="h4 mb-4">Allez, viens, ça va être bien</p>
+
+    <!-- FirstName -->
+    <%= text_field_tag 'first_name', nil, type: "first_name", id: "defaultLoginFormFirstName", class: "form-control mb-4", placeholder: "Ton blaze" %>
+
+    <!-- LastName -->
+    <%= text_field_tag 'last_name', nil, type: "last_name", id: "defaultLoginFormLastName", class: "form-control mb-4", placeholder: "Ton patronyme" %>
+
+    <!-- Description -->
+    <%= text_area_tag 'description', nil, type: "description", id: "defaultLoginFormDescription", class: "form-control mb-4", placeholder: "Ta vie, ton oeuvre" %>
+
+    <!-- Age -->
+    <%= number_field_tag 'age', nil, in: 18...99, id: "defaultLoginFormAge", class: "form-control mb-4", placeholder: "How old?" %>
+
+    <!-- City -->
+    <%= select_tag 'city[]', options_for_select(@cities.map{|city| city.name }), class: "form-control mb-4", placeholder: "D'où viens-tu ?" %>
+
+    <!-- Email -->
+    <%= text_field_tag 'email', nil, type: "email", id: "defaultLoginFormEmail", class: "form-control mb-4", placeholder: "E-mail" %>
+
+    <!-- Password -->
+    <%= text_field_tag 'password', nil, type: "password", id: "defaultLoginFormPassword", class: "form-control mb-4", placeholder: "Password" %>
+
+    <!-- Sign in button -->
+    <%= submit_tag "Sign up", class: "btn btn-info btn-block my-4", type: "submit" %>
+
+    <!-- Register -->
+    <p>Already a member?
+        <%= link_to 'Sign In', new_session_path %>
+    </p>
+
+    <!-- Social login -->
+
 <% end %>
+<!-- Default form login -->
+</div>
 
 <% if @user.errors.any? %>
   <p>Nous n'avons pas réussi à créer le profile pour la (ou les) raison(s) suivante(s) :</p>

@@ -4,24 +4,27 @@
 <p>Contenu : <%= @gossip.content %></p>
 <p>Date : <%= @gossip.created_at %></p>
 <p>Nb de likes : <%= @likes_number %></p>
+<!--Test if user's already liked the gossip with a LikesHelper-->
 <% if like_triplet?('Gossip', @gossip.id) %>
 <%= button_to "Nan j'aime pas en fait", like_path, method: "delete", params: {likeable_type: 'Gossip', likeable_id: @gossip.id} %>
 <% else %>
-<%= button_to "Like that Gossip", likes_path, method: "post", params: {likeable_type: 'Gossip', likeable_id: @gossip.id} %>
+<%= button_to "Like that Gossip", likes_path, method: "post", params: {likeable_type: 'Gossip', likeable_id: @gossip.id}, class: "btn btn-primary" %>
 <% end %>
+<!--Tags Part-->
 <h5>Tags :</h5>
 <% @gossip.tags.each do |tag| %>
 <%= tag.title %><br /><br />
 <% end %>
+<!--Comments Part with a .each-->
 <h5>Créer un nouveau commentaire pour ce gossip</h5>
 <%= link_to "nouveau commentaire à écrire", new_gossip_comment_path(@gossip.id) %>
 <h5>Commentaires :</h5>
     <% @comments.each do |comment| %>
-<%= comment.content %><br /><br />
-<%= comment.user.first_name %><br /><br />
-<p>Nb de likes : <%= likes_comment_number(comment.id) %></p>
-<%= button_to "Like that Comment", likes_path, method: "post", params: {likeable_type: 'Comment', likeable_id: comment.id} %>
-<%= link_to "modifier le comm'", edit_gossip_comment_path(@gossip.id, comment.id) %>
+			<p>Messy Message : <%= comment.content %></p><br /><br />
+			<p>Blaze de l'auteur.e du comment': <%= comment.user.first_name %></p><br /><br />
+			<p>Nb de likes : <%= likes_comment_number(comment.id) %></p>
+			<%= button_to "Like that Comment", likes_path, method: "post", params: {likeable_type: 'Comment', likeable_id: comment.id} %>
+			<%= link_to "modifier le comm'", edit_gossip_comment_path(@gossip.id, comment.id) %>
 <h5>---Commentaires du commentaire---</h5>
     <% @sub_comments.each do |sub_comment| %>
 <%= sub_comment.content %><br /><br />
