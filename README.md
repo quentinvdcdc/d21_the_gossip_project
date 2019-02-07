@@ -11,7 +11,7 @@ On avance a grands pas dans le projet ! [__waaaaaaw__](https://www.youtube.com/w
 
 Crées donc un profil dans ce magnifique site; tu aurras accès a un univers rempli de __*POTIN*__!
 
-A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustillante de ton école! ihi
+A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustillante de ton école! 🤩ihi🤩
 
 😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻😻
 
