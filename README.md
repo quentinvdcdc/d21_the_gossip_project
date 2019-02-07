@@ -22,6 +22,9 @@ Tu peux aussi [cliquer ici](https://the-gossip-project-app.herokuapp.com/)..
 [right]Ou même [là](https://the-gossip-project-app.herokuapp.com/) ![/right]
 
 
+[right]Texte algné à droite[/right]
+
+
 #### Made with ♥ by:
 
 ##### Quentin Vandecandelaere -> @Quentin Vandecandelaere
