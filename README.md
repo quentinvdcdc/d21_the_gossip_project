@@ -1,4 +1,4 @@
-Hello la <span style="color: #0fe50b">correction</span>, bienvenue dans ce petit repo, el famoso :
+Hello la correction, bienvenue dans ce petit repo, el famoso :
 
 **GOSSIP PROJECT EN RAILS** ;
 
@@ -14,6 +14,8 @@ A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustilla
 
 
 Jettes donc un oeil;
+
+[LE SITE SE TROUVE ICI LOL](https://the-gossip-project-app.herokuapp.com/){#id .class1 .class2}
 
 https://the-gossip-project-app.herokuapp.com/
 
