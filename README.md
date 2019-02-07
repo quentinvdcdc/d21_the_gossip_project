@@ -1,4 +1,4 @@
-😍Hello la correction, bienvenue dans ce petit repo, el famoso :😍
+😍[__Coucou__](https://www.youtube.com/watch?v=Ew4Doli6qy0) la correction, bienvenue dans ce petit repo, el famoso :😍
 
 **GOSSIP PROJECT EN RAILS** ;
 
