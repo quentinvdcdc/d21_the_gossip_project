@@ -33,6 +33,6 @@ A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustilla
 ##### Martin François -> @tinmar
 
 ##### Xavier Refour -> @Xavier.Refour
-
+<p align="center">
 ![](https://media.giphy.com/media/1APhJbPYlhwjaHMglf/giphy.gif)
 </p>
