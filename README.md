@@ -19,10 +19,9 @@ Jettes donc un oeil [sur ce merveilleux site copain](https://the-gossip-project-
 
 Tu peux aussi [cliquer ici](https://the-gossip-project-app.herokuapp.com/)..
 
-[right]Ou même [là](https://the-gossip-project-app.herokuapp.com/) ![/right]
+Ou même [là](https://the-gossip-project-app.herokuapp.com/) !
 
 
-[right]Texte algné à droite[/right]
 
 
 #### Made with ♥ by:
@@ -35,3 +34,15 @@ Tu peux aussi [cliquer ici](https://the-gossip-project-app.herokuapp.com/)..
 
 ![](https://media.giphy.com/media/1xOPLatcVxOVhWXa1s/giphy.gif)
 
+
+
+
+
+<p align="center">
+  <b>Some Links:</b><br>
+  <a href="#">Link 1</a> |
+  <a href="#">Link 2</a> |
+  <a href="#">Link 3</a>
+  <br><br>
+  <img src="http://s.4cdn.org/image/title/105.gif">
+</p>
