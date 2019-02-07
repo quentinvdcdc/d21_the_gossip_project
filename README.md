@@ -6,28 +6,16 @@ Le principe de l'exercice est *simple* :
 
 ### On potine. *Basique*.
 
-On commence tout ça avec les premières pages de l'appli.
+On avance a grands pas dans le projet ! __waaaaaaw__
 
-On retrouve les différents __potins__ sur la *page d'accueil*. (pour l'instant fake, lol)
+Crées donc un profil dans ce magnifique site; tu aurras accès a un univers rempli de *POTIN*!
 
-__/team__ et __/contact__ dans le *header*.
+A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustillante de ton école! ihi
 
-Tout les liens sont cliquable depuis la *home page*.
 
-Pour faire fonctionner tout ça rien de bien compliqué : 
-~~~~~~~~~~~~~~~~~~~~
-$ bundle install
+Jettes donc un oeil;
 
-$ rails db:create
-
-$ rails db:migrate
-
-$ rails db:seed
-
-$ rails server
-
-localhost:3000/ 
-~~~~~~~~~~~~~~~~~~~~
+https://the-gossip-project-app.herokuapp.com/
 
 #### Made with ♥ by:
 
@@ -37,5 +25,5 @@ localhost:3000/
 
 ##### Xavier Refour -> @Xavier.Refour
 
-![](https://media.giphy.com/media/jbbXfBJDKl5W8lexTu/giphy.gif)
+![](https://media.giphy.com/media/1xOPLatcVxOVhWXa1s/giphy.gif)
 
