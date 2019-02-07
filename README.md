@@ -1,5 +1,4 @@
-<p align="center">
-Hello la correction, bienvenue dans ce petit repo, el famoso :
+😍Hello la correction, bienvenue dans ce petit repo, el famoso :😍
 
 **GOSSIP PROJECT EN RAILS** ;
 
