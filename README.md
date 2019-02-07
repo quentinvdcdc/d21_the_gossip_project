@@ -1,3 +1,4 @@
+<p align="center">
 Hello la correction, bienvenue dans ce petit repo, el famoso :
 
 **GOSSIP PROJECT EN RAILS** ;
@@ -34,3 +35,4 @@ A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustilla
 ##### Xavier Refour -> @Xavier.Refour
 
 ![](https://media.giphy.com/media/1APhJbPYlhwjaHMglf/giphy.gif)
+</p>
