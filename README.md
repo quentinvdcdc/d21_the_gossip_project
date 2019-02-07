@@ -20,7 +20,6 @@ A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustilla
   <a href="https://the-gossip-project-app.herokuapp.com/">NON LA</a>
   <br><br>
   <img src="https://media.giphy.com/media/1xOPLatcVxOVhWXa1s/giphy.gif">
-  <img src="https://media.giphy.com/media/l3dj15R8NCMJzeYZG/giphy.gif">
 </p>
 
 
@@ -33,3 +32,6 @@ A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustilla
 ##### Martin François -> @tinmar
 
 ##### Xavier Refour -> @Xavier.Refour
+
+
+  <img src="https://media.giphy.com/media/l3dj15R8NCMJzeYZG/giphy.gif">
