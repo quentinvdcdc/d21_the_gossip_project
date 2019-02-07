@@ -15,11 +15,12 @@ A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustilla
 
 Jettes donc un oeil;
 
-Jettes donc un oeil [sur ce merveilleux site baby](https://the-gossip-project-app.herokuapp.com/) !
+Jettes donc un oeil [sur ce merveilleux site copain](https://the-gossip-project-app.herokuapp.com/) !
 
 Tu peux aussi [cliquer ici](https://the-gossip-project-app.herokuapp.com/)..
 
-                                         Ou même [là](https://the-gossip-project-app.herokuapp.com/) !
+[right]Ou même [là](https://the-gossip-project-app.herokuapp.com/) ![/right]
+
 
 #### Made with ♥ by:
 
