@@ -15,7 +15,9 @@ A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustilla
 
 Jettes donc un oeil;
 
-[LE SITE SE TROUVE ICI LOL](https://the-gossip-project-app.herokuapp.com/){#id .class1 .class2}
+Jettes donc un oeil [sur ce merveilleux site baby](https://the-gossip-project-app.herokuapp.com/) !
+
+clic pute[LE SITE SE TROUVE ICI LOL](https://the-gossip-project-app.herokuapp.com/){#id .class1 .class2}
 
 https://the-gossip-project-app.herokuapp.com/
 
