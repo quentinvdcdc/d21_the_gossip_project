@@ -13,13 +13,11 @@ Crées donc un profil dans ce magnifique site; tu aurras accès a un univers rem
 A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustillante de ton école! ihi
 
 
-Jettes donc un oeil;
 
 <p align="center">
-  <b>Some Links:</b><br>
+  <b>Jettes dont un oeil:</b><br>
   <a href="https://the-gossip-project-app.herokuapp.com/">ICI</a> |
-  <a href="https://the-gossip-project-app.herokuapp.com/">NON LA 2</a> |
-  <a href="https://the-gossip-project-app.herokuapp.com/">(c'est pareil)</a>
+  <a href="https://the-gossip-project-app.herokuapp.com/">NON LA</a> |
   <br><br>
   <img src="https://media.giphy.com/media/1xOPLatcVxOVhWXa1s/giphy.gif">
 </p>
@@ -34,6 +32,3 @@ Jettes donc un oeil;
 ##### Martin François -> @tinmar
 
 ##### Xavier Refour -> @Xavier.Refour
-
-![](https://media.giphy.com/media/1xOPLatcVxOVhWXa1s/giphy.gif)
-
