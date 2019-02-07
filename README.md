@@ -39,5 +39,5 @@ A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustilla
 
 <p align="center">
   <br><br>
-  <img src="https://media.giphy.com/media/1xOPLatcVxOVhWXa1s/giphy.gif">
+  <img src="https://media.giphy.com/media/12alEE2WO4VtMQ/giphy.gif">
 </p>
