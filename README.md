@@ -16,10 +16,10 @@ A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustilla
 
 <p align="center">
   <b>Jettes dont un oeil:</b><br>
-  <a href="https://the-gossip-project-app.herokuapp.com/">ICI</a> |
-  <a href="https://the-gossip-project-app.herokuapp.com/">NON LA</a>
+  <a href="https://the-gossip-project-app.herokuapp.com/">ICI</a> OU
+  <a href="https://the-gossip-project-app.herokuapp.com/">LA</a>
   <br><br>
-  <img src="https://media.giphy.com/media/1xOPLatcVxOVhWXa1s/giphy.gif">
+  <img src="https://media.giphy.com/media/8w3ksZxYqGvjAkoWPF/giphy.gif">
 </p>
 
 
