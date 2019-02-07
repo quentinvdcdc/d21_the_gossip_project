@@ -1,4 +1,4 @@
-Hello la [color=#26B260]correction[/color], bienvenue dans ce petit repo, el famoso :
+Hello la <span style="color: #26B260">correction</span>, bienvenue dans ce petit repo, el famoso :
 
 **GOSSIP PROJECT EN RAILS** ;
 
