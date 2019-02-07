@@ -6,7 +6,7 @@ Le principe de l'exercice est *simple* :
 
 ### On potine. *Basique*.
 
-On avance a grands pas dans le projet ! __waaaaaaw__
+On avance a grands pas dans le projet ! [__waaaaaaw__](https://www.youtube.com/watch?v=OMm1RLF32ig)
 
 Crées donc un profil dans ce magnifique site; tu aurras accès a un univers rempli de __*POTIN*__!
 
