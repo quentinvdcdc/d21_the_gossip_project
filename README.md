@@ -34,5 +34,5 @@ A toi d'en ajouter quelques uns: informes nous des anecdotes les plus croustilla
 
 ##### Xavier Refour -> @Xavier.Refour
 <p align="center">
-<img src="https://media.giphy.com/media/1APhJbPYlhwjaHMglf/giphy.gif>
+  <img src="https://media.giphy.com/media/1APhJbPYlhwjaHMglf/giphy.gif>
 </p>
