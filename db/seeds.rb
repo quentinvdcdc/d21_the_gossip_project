@@ -10,10 +10,10 @@
 	city = City.create!(name: Faker::LeagueOfLegends.location,zip_code: Faker::Number.number(5))
 end
 
-user = User.create!(first_name: "Anonymous",last_name: "Doe",description: "Discret comme une ombre",age: Faker::Number.number(2),email: Faker::Internet.email, password: Faker::Internet.password,city_id: rand(City.first.id..City.last.id))
+
 
 10.times do
-	user = User.create!(first_name: Faker::Lebowski.character,last_name: Faker::LordOfTheRings.character,description: Faker::Lorem.sentence,age: Faker::Number.number(2),email: Faker::Internet.email,city_id: rand(City.first.id..City.last.id))
+	user = User.create!(first_name: Faker::Lebowski.character,last_name: Faker::LordOfTheRings.character,description: Faker::Lorem.sentence,age: Faker::Number.number(2),email: Faker::Internet.email,password: Faker::Crypto.md5,city_id: rand(City.first.id..City.last.id))
 end
 
 20.times do
