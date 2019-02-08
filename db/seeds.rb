@@ -10,6 +10,9 @@
 	city = City.create!(name: Faker::LeagueOfLegends.location,zip_code: Faker::Number.number(5))
 end
 
+10.times do
+	tag = Tag.create!(title: Faker::Book.genre)
+end
 
 
 10.times do
@@ -20,9 +23,6 @@ end
 	gossip = Gossip.create!(title: Faker::SiliconValley.app,content: Faker::SiliconValley.motto,user_id: rand(User.first.id..User.last.id))
 end
 
-10.times do
-	tag = Tag.create!(title: Faker::Book.genre)
-end
 
 20.times do |i| #on fait 20 fois car 20 gossips => le i est là pour ça grâce au find()
 	rand(Tag.first.id..Tag.last.id).times do #nb aléatoire de tags pour tout Gossip
